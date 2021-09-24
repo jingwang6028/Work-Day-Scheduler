@@ -5,10 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- links for bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- links for font -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <!-- links for css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
 </head>
@@ -23,10 +26,10 @@
         <!-- Timeblocks go here -->
         <div class="row">
             <div class="col-2 hour text-center">
-                <p>9AM</p>
+                <p id="9" class="time-block">9AM</p>
             </div>
 
-            <textarea class="col-8" name="" id=""></textarea>
+            <textarea class="col-8" name="toDO" id="text9am"></textarea>
 
             <div class="col-2">
                 <button class="fas fa-save saveBtn"></button>
@@ -34,10 +37,10 @@
         </div>
         <div class="row">
             <div class="col-2 hour text-center">
-                <p>10AM</p>
+                <p id="10" class="time-block">10AM</p>
             </div>
 
-            <textarea class="col-8" name="" id=""></textarea>
+            <textarea class="col-8" name="toDO" id="text10am"></textarea>
 
             <div class="col-2">
                 <button class="fas fa-save saveBtn"></button>
@@ -45,10 +48,10 @@
         </div>
         <div class="row">
             <div class="col-2 hour text-center">
-                <p>11AM</p>
+                <p id="11" class="time-block">11AM</p>
             </div>
 
-            <textarea class="col-8" name="" id=""></textarea>
+            <textarea class="col-8" name="toDO" id="text11am"></textarea>
 
             <div class="col-2">
                 <button class="fas fa-save saveBtn"></button>
@@ -56,33 +59,10 @@
         </div>
         <div class="row">
             <div class="col-2 hour text-center">
-                <p>12PM</p>
+                <p id="12" class="time-block">12PM</p>
             </div>
 
-            <textarea class="col-8" name="" id=""></textarea>
-
-
-            <div class="col-2">
-                <button class="fas fa-save saveBtn"></button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-2 hour text-center">
-                <p>1PM</p>
-            </div>
-
-            <textarea class="col-8" name="" id=""></textarea>
-
-            <div class="col-2">
-                <button class="fas fa-save saveBtn"></button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-2 hour text-center">
-                <p>2PM</p>
-            </div>
-
-            <textarea class="col-8" name="" id=""></textarea>
+            <textarea class="col-8" name="toDO" id="text12pm"></textarea>
 
 
             <div class="col-2">
@@ -91,9 +71,10 @@
         </div>
         <div class="row">
             <div class="col-2 hour text-center">
-                <p>3PM</p>
+                <p id="13" class="time-block">1PM</p>
             </div>
-            <textarea class="col-8" name="" id=""></textarea>
+
+            <textarea class="col-8" name="toDO" id="text1pm"></textarea>
 
             <div class="col-2">
                 <button class="fas fa-save saveBtn"></button>
@@ -101,10 +82,11 @@
         </div>
         <div class="row">
             <div class="col-2 hour text-center">
-                <p>4PM</p>
+                <p id="14" class="time-block">2PM</p>
             </div>
 
-            <textarea class="col-8" name="" id=""></textarea>
+            <textarea class="col-8" name="toDO" id="text2pm"></textarea>
+
 
             <div class="col-2">
                 <button class="fas fa-save saveBtn"></button>
@@ -112,13 +94,34 @@
         </div>
         <div class="row">
             <div class="col-2 hour text-center">
-                <p>5PM</p>
+                <p id="15" class="time-block">3PM</p>
             </div>
-
-            <textarea class="col-8" name="" id=""></textarea>
+            <textarea class="col-8" name="toDO" id="text3pm"></textarea>
 
             <div class="col-2">
-                <button class="fas fa-save btn saveBtn"></button>
+                <button class="fas fa-save saveBtn"></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 hour text-center">
+                <p id="16" class="time-block">4PM</p>
+            </div>
+
+            <textarea class="col-8" name="toDO" id="text4pm"></textarea>
+
+            <div class="col-2">
+                <button class="fas fa-save saveBtn"></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 hour text-center">
+                <p id="17" class="time-block">5PM</p>
+            </div>
+
+            <textarea class="col-8" name="toDO" id=""></textarea>
+
+            <div class="col-2">
+                <button class="fas fa-save saveBtn"></button>
             </div>
         </div>
     </div>
